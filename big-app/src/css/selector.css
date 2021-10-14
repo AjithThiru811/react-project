@@ -1,0 +1,50 @@
+#selectorPage {
+    background-color: #e5f1ff;
+    padding: 20px;
+    min-height: 100vh;
+}
+.selectorPageInnerWrapper {
+    background-color: #FFF;
+    padding: 20px;
+}
+.tableData {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px dashed #000;
+}
+.d-inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+.activePermission, .inactivePermission {
+    width: 45%;
+    border: 1px dashed #000;
+    min-height: 100vh;
+}
+.permissionWrapper {
+    margin-top: 20px;
+}
+.dividerCol {
+    width: 9%;
+}
+.moveToLeft, .moveToRight {
+    cursor: pointer;
+    border: 1px solid #000;
+    margin: 24px auto;
+    width: 15px;
+    height: 30px;
+    padding: 5px 10px;
+}
+.moveToLeft:hover, .moveToRight:hover {
+    background-color: #e5f1ff;
+}
+.moveToLeft {
+    content: url("../img/left-arrow.svg");
+}
+.moveToRight {
+    content: url("../img/left-arrow.svg");
+    transform: rotate(180deg);
+}
+.tableData.selected, .tableData:hover {
+    background-color: #e5f1ff;
+}

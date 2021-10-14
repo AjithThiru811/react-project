@@ -1,0 +1,45 @@
+#listPage {
+    background-color: #e5f1ff;
+    padding: 20px;
+    min-height: 100vh;
+}
+.ReactTable {
+    background-color: #FFF;
+}
+.searchBox {
+    text-align: right;
+    margin: 10px 0px;
+    position: relative;
+}
+.searchBox input {
+    padding: 5px 10px;
+}
+.searchBox span svg {
+    position: absolute;
+    right: 5px;
+    width: 18px;
+    top: 2px;
+    cursor: pointer;
+}
+.searchBox span svg:hover {
+    opacity: 0.8;
+}
+.ReactTable .rt-tbody .rt-tr-group {
+    text-align: center;
+}
+span.userDetails, .rt-tr .rt-th:first-child {
+    text-align: left;
+}
+span.link {
+    text-align: left;
+    float: left;
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+.rt-tr-group {
+    cursor: pointer;
+}
+.rt-tr-group:hover {
+    background-color: #e5f1ff;
+}
